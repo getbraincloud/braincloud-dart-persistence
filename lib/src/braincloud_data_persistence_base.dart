@@ -1,4 +1,4 @@
-import 'package:braincloud_dart/data_persistence.dart' show DataPersistenceBase;
+import 'package:braincloud/data_persistence.dart' show DataPersistenceBase;
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Uses SharedPreferencesAsync to persists String values

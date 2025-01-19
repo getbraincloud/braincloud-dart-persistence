@@ -4,4 +4,4 @@
 /// in apps using Fluttler SDK.
 library;
 
-export 'src/braincloud_dart_persistence_base.dart';
+export 'src/braincloud_data_persistence_base.dart';
