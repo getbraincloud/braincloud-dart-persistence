@@ -26,5 +26,3 @@ platforms:
   macos:
   web:
   windows:
-
-publish_to: none
