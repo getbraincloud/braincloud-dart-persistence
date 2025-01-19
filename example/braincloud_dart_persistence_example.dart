@@ -1,4 +1,4 @@
-import 'package:braincloud_dart_persistence/braincloud_dart_persistence.dart';
+import 'package:braincloud_data_persistence/braincloud_data_persistence.dart';
 
 void main() async {
   var dataPersistence = DataPersistence();
