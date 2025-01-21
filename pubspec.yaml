@@ -1,6 +1,6 @@
 name: braincloud_data_persistence
 description: "brainCloud helper package. brainCloud_dart_peristence provide a persistence support into the platform preferences"
-version: 5.5.0
+version: 5.5.0+1
 homepage: https://getbraincloud.com/
 
 environment:
@@ -10,6 +10,7 @@ environment:
 # Add regular dependencies here.
 dependencies:
   braincloud: ^5.5.0
+  flutter_secure_storage: ^9.2.4
   shared_preferences: ^2.3.5
 
 dev_dependencies:
