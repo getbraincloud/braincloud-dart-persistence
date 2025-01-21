@@ -1,11 +1,11 @@
 
 # brainCloud Dart Persistence Helper
 
-The brainCloud Dart Persistence Helper package provides persistence support for the brainCloud Dart SDK by integrating platform preferences using SharedPreferencesAsync.
+The brainCloud Dart Persistence Helper package provides persistence support for the brainCloud Dart SDK by integrating platform preferences using SharedPreferencesAsync or SecureDataPersistence.
 
 ## Features
 
-- Simplifies data storage and retrieval by leveraging SharedPreferencesAsync.
+- Simplifies data storage and retrieval by leveraging SharedPreferencesAsync or SecureDataPersistence.
 - Facilitates seamless integration with the brainCloud Dart SDK.
     
 
@@ -21,7 +21,7 @@ flutter pub add braincloud_dart_peristence
 Initialize the BrainCloudWrapper with the persistence helper during setup:
 
 ```dart
-import 'package:braincloud_dart/braincloud_dart.dart';
+import 'package:braincloud/braincloud.dart';
 import 'package:braincloud_dart_persistence/braincloud_dart_persistence.dart';
 
 final bcWrapper = BrainCloudWrapper(
@@ -30,6 +30,20 @@ final bcWrapper = BrainCloudWrapper(
 );
 
 ```
+
+or using SecureDataPersistence
+
+```dart
+import 'package:braincloud/braincloud.dart';
+import 'package:braincloud_dart_persistence/braincloud_dart_persistence.dart';
+
+final bcWrapper = BrainCloudWrapper(
+  wrapperName: "FlutterTest",
+  persistence: SecureDataPersistence(),
+);
+
+```
+
 
 ## Custom Persistence Class
 
