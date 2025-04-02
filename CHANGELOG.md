@@ -6,3 +6,7 @@
 
 - Added SecureDataPersistence
 - Fixed some paths inconsistencies.
+
+## 5.6.0
+
+* Uptated for Braincloud version 5.6.0
