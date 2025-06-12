@@ -1,8 +1,3 @@
-## 5.5.0
+## 5.7.0
 
-- Initial version.
-
-## 5.5.0+1
-
-- Added SecureDataPersistence
-- Fixed some paths inconsistencies.
+* brainCloud 5.7 is live! - [updates.braincloudservers.com](https://updates.braincloudservers.com/braincloud-5.7-is-live-2CLjcA)
