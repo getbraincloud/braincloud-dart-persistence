@@ -49,6 +49,5 @@ coverage
 
 logs/*
 test-results.json
-test/ids.txt
 testServer/
 tool
